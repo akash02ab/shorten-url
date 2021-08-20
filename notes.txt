@@ -1,0 +1,16 @@
+Install NodeJs in your system: https://nodejs.org/en/download/
+
+This app uses mongodb Atlas, so you don't need to setup any database locally
+
+How to run:
+    make setup test server
+
+1. First it'll install all the dependencies
+2. Runs the tests (present in /test directory)
+3. Launches the server at port 8008
+
+Now you can open http://localhost:8008 on any browser.
+
+---
+
+Completion time: 4hrs 20min
